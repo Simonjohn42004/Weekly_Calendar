@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:paddingBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:gravity="center">
+
+    <!-- Indicator Background (Circle) -->
+    <LinearLayout
+        android:id="@+id/indicatorLayout"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+    <!-- Day Name (e.g., Mon, Tue) -->
+    <TextView
+        android:id="@+id/tvDayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Day Date (e.g., 01, 02) -->
+    <TextView
+        android:id="@+id/tvDayDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01"
+        android:textSize="14sp"
+        android:layout_marginTop="-5dp"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>
+
+    </FrameLayout>
+
